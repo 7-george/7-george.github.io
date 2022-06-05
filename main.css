@@ -66,4 +66,22 @@ h1 {
 	100% { background-position: 100% 50%; }
 }
 
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 4.5em;
+    }
+    #sub {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 11px;
+        margin-top: 0;
+    }
+    
+    #brief {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 7px;
+        margin: 0;
+    }
+  }
+
+
 /*# sourceMappingURL=main.css.map*/
