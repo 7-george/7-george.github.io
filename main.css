@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@100&display=swap);
+#progress-bar {
+    width:40%;
+    margin-top:0rem;
+    height:0.1%;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+main {
+    opacity:0.9;
+    color: white;
+    z-index: 99;
+    position: absolute;
+    padding: 60px 0px;
+    width: 100%;
+    height: 240em;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#sub {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+#brief {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    margin: 0;
+}
+
+body { font: 400 1em/1.5 "Neuton"; background: #090d00; color: rgba(255,255,255,.25); text-align: center; margin: 0 }
+
+h1 {
+    opacity:0.9;
+    font: 200 10em/1 "Oswald", sans-serif;
+    letter-spacing: 3;
+    font-size: 50;
+    padding: .25em 0 .325em;
+    display: block;
+    margin: 0;
+    text-shadow: 0 0 100px rgba(255,255,255,.6);
+
+    background: url(assets/images/0b30f123c1e87649b49467fef346976c.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+}
+
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
+
+/*# sourceMappingURL=main.css.map*/
